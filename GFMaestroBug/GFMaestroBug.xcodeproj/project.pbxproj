@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E823B20F1F9648C400E0169A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823B20E1F9648C400E0169A /* AppDelegate.swift */; };
+		E823B2111F9648C400E0169A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823B2101F9648C400E0169A /* ViewController.swift */; };
+		E823B2141F9648C400E0169A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E823B2121F9648C400E0169A /* Main.storyboard */; };
+		E823B2161F9648C400E0169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E823B2151F9648C400E0169A /* Assets.xcassets */; };
+		E823B2191F9648C400E0169A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E823B2171F9648C400E0169A /* LaunchScreen.storyboard */; };
+		E823B2241F9648C400E0169A /* GFMaestroBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823B2231F9648C400E0169A /* GFMaestroBugTests.swift */; };
+		E823B22F1F9648C400E0169A /* GFMaestroBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823B22E1F9648C400E0169A /* GFMaestroBugUITests.swift */; };
+		E823B23D1F96492E00E0169A /* bugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823B23C1F96492E00E0169A /* bugs.swift */; };
+		E836878C1F99E72D0009161E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836878B1F99E72D0009161E /* MainMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E823B2201F9648C400E0169A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E823B2031F9648C400E0169A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E823B20A1F9648C400E0169A;
+			remoteInfo = GFMaestroBug;
+		};
+		E823B22B1F9648C400E0169A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E823B2031F9648C400E0169A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E823B20A1F9648C400E0169A;
+			remoteInfo = GFMaestroBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E823B20B1F9648C400E0169A /* GFMaestroBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFMaestroBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823B20E1F9648C400E0169A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E823B2101F9648C400E0169A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E823B2131F9648C400E0169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E823B2151F9648C400E0169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E823B2181F9648C400E0169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E823B21A1F9648C400E0169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823B21F1F9648C400E0169A /* GFMaestroBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFMaestroBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823B2231F9648C400E0169A /* GFMaestroBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFMaestroBugTests.swift; sourceTree = "<group>"; };
+		E823B2251F9648C400E0169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823B22A1F9648C400E0169A /* GFMaestroBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFMaestroBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823B22E1F9648C400E0169A /* GFMaestroBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFMaestroBugUITests.swift; sourceTree = "<group>"; };
+		E823B2301F9648C400E0169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823B23C1F96492E00E0169A /* bugs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bugs.swift; sourceTree = "<group>"; };
+		E836878B1F99E72D0009161E /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E823B2081F9648C400E0169A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B21C1F9648C400E0169A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B2271F9648C400E0169A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E823B2021F9648C400E0169A = {
+			isa = PBXGroup;
+			children = (
+				E823B20D1F9648C400E0169A /* GFMaestroBug */,
+				E823B2221F9648C400E0169A /* GFMaestroBugTests */,
+				E823B22D1F9648C400E0169A /* GFMaestroBugUITests */,
+				E823B20C1F9648C400E0169A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E823B20C1F9648C400E0169A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E823B20B1F9648C400E0169A /* GFMaestroBug.app */,
+				E823B21F1F9648C400E0169A /* GFMaestroBugTests.xctest */,
+				E823B22A1F9648C400E0169A /* GFMaestroBugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E823B20D1F9648C400E0169A /* GFMaestroBug */ = {
+			isa = PBXGroup;
+			children = (
+				E823B20E1F9648C400E0169A /* AppDelegate.swift */,
+				E823B2101F9648C400E0169A /* ViewController.swift */,
+				E823B2121F9648C400E0169A /* Main.storyboard */,
+				E823B2151F9648C400E0169A /* Assets.xcassets */,
+				E823B2171F9648C400E0169A /* LaunchScreen.storyboard */,
+				E823B21A1F9648C400E0169A /* Info.plist */,
+				E823B23C1F96492E00E0169A /* bugs.swift */,
+				E836878B1F99E72D0009161E /* MainMenu.swift */,
+			);
+			path = GFMaestroBug;
+			sourceTree = "<group>";
+		};
+		E823B2221F9648C400E0169A /* GFMaestroBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				E823B2231F9648C400E0169A /* GFMaestroBugTests.swift */,
+				E823B2251F9648C400E0169A /* Info.plist */,
+			);
+			path = GFMaestroBugTests;
+			sourceTree = "<group>";
+		};
+		E823B22D1F9648C400E0169A /* GFMaestroBugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E823B22E1F9648C400E0169A /* GFMaestroBugUITests.swift */,
+				E823B2301F9648C400E0169A /* Info.plist */,
+			);
+			path = GFMaestroBugUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E823B20A1F9648C400E0169A /* GFMaestroBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823B2331F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBug" */;
+			buildPhases = (
+				E823B2071F9648C400E0169A /* Sources */,
+				E823B2081F9648C400E0169A /* Frameworks */,
+				E823B2091F9648C400E0169A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFMaestroBug;
+			productName = GFMaestroBug;
+			productReference = E823B20B1F9648C400E0169A /* GFMaestroBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E823B21E1F9648C400E0169A /* GFMaestroBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823B2361F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBugTests" */;
+			buildPhases = (
+				E823B21B1F9648C400E0169A /* Sources */,
+				E823B21C1F9648C400E0169A /* Frameworks */,
+				E823B21D1F9648C400E0169A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E823B2211F9648C400E0169A /* PBXTargetDependency */,
+			);
+			name = GFMaestroBugTests;
+			productName = GFMaestroBugTests;
+			productReference = E823B21F1F9648C400E0169A /* GFMaestroBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E823B2291F9648C400E0169A /* GFMaestroBugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823B2391F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBugUITests" */;
+			buildPhases = (
+				E823B2261F9648C400E0169A /* Sources */,
+				E823B2271F9648C400E0169A /* Frameworks */,
+				E823B2281F9648C400E0169A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E823B22C1F9648C400E0169A /* PBXTargetDependency */,
+			);
+			name = GFMaestroBugUITests;
+			productName = GFMaestroBugUITests;
+			productReference = E823B22A1F9648C400E0169A /* GFMaestroBugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E823B2031F9648C400E0169A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sdev;
+				TargetAttributes = {
+					E823B20A1F9648C400E0169A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X28MN47G64;
+						ProvisioningStyle = Automatic;
+					};
+					E823B21E1F9648C400E0169A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PHH3VG3B6M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E823B20A1F9648C400E0169A;
+					};
+					E823B2291F9648C400E0169A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PHH3VG3B6M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E823B20A1F9648C400E0169A;
+					};
+				};
+			};
+			buildConfigurationList = E823B2061F9648C400E0169A /* Build configuration list for PBXProject "GFMaestroBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E823B2021F9648C400E0169A;
+			productRefGroup = E823B20C1F9648C400E0169A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E823B20A1F9648C400E0169A /* GFMaestroBug */,
+				E823B21E1F9648C400E0169A /* GFMaestroBugTests */,
+				E823B2291F9648C400E0169A /* GFMaestroBugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E823B2091F9648C400E0169A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823B2191F9648C400E0169A /* LaunchScreen.storyboard in Resources */,
+				E823B2161F9648C400E0169A /* Assets.xcassets in Resources */,
+				E823B2141F9648C400E0169A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B21D1F9648C400E0169A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B2281F9648C400E0169A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E823B2071F9648C400E0169A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823B23D1F96492E00E0169A /* bugs.swift in Sources */,
+				E823B2111F9648C400E0169A /* ViewController.swift in Sources */,
+				E823B20F1F9648C400E0169A /* AppDelegate.swift in Sources */,
+				E836878C1F99E72D0009161E /* MainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B21B1F9648C400E0169A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823B2241F9648C400E0169A /* GFMaestroBugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823B2261F9648C400E0169A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823B22F1F9648C400E0169A /* GFMaestroBugUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E823B2211F9648C400E0169A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E823B20A1F9648C400E0169A /* GFMaestroBug */;
+			targetProxy = E823B2201F9648C400E0169A /* PBXContainerItemProxy */;
+		};
+		E823B22C1F9648C400E0169A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E823B20A1F9648C400E0169A /* GFMaestroBug */;
+			targetProxy = E823B22B1F9648C400E0169A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E823B2121F9648C400E0169A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E823B2131F9648C400E0169A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E823B2171F9648C400E0169A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E823B2181F9648C400E0169A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E823B2311F9648C400E0169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E823B2321F9648C400E0169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E823B2341F9648C400E0169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X28MN47G64;
+				INFOPLIST_FILE = GFMaestroBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBug2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E823B2351F9648C400E0169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X28MN47G64;
+				INFOPLIST_FILE = GFMaestroBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBug2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E823B2371F9648C400E0169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PHH3VG3B6M;
+				INFOPLIST_FILE = GFMaestroBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFMaestroBug.app/GFMaestroBug";
+			};
+			name = Debug;
+		};
+		E823B2381F9648C400E0169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PHH3VG3B6M;
+				INFOPLIST_FILE = GFMaestroBugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFMaestroBug.app/GFMaestroBug";
+			};
+			name = Release;
+		};
+		E823B23A1F9648C400E0169A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PHH3VG3B6M;
+				INFOPLIST_FILE = GFMaestroBugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GFMaestroBug;
+			};
+			name = Debug;
+		};
+		E823B23B1F9648C400E0169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PHH3VG3B6M;
+				INFOPLIST_FILE = GFMaestroBugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LTU.GFMaestroBugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GFMaestroBug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E823B2061F9648C400E0169A /* Build configuration list for PBXProject "GFMaestroBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823B2311F9648C400E0169A /* Debug */,
+				E823B2321F9648C400E0169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823B2331F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823B2341F9648C400E0169A /* Debug */,
+				E823B2351F9648C400E0169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823B2361F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823B2371F9648C400E0169A /* Debug */,
+				E823B2381F9648C400E0169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823B2391F9648C400E0169A /* Build configuration list for PBXNativeTarget "GFMaestroBugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823B23A1F9648C400E0169A /* Debug */,
+				E823B23B1F9648C400E0169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E823B2031F9648C400E0169A /* Project object */;
+}
